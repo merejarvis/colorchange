@@ -27,6 +27,7 @@ document.body.style.backgroundColor = arr[(Random(0,5))];
 function change(){
   setInterval(changeColour,1000)
   setInterval(buttonDisplay, 1000)
+  
 }
 
 button.addEventListener('click', change)
